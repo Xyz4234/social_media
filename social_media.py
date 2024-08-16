@@ -13,7 +13,7 @@
 import streamlit as st
 from PIL import Image
 from st_supabase_connection import SupabaseConnection
-Install st-supabase-connection.
+
 # Supabase connection setup
 url = "https://hgaxxesnbfrmebnfkaku.supabase.co"  # Replace with your Supabase project URL
 api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnYXh4ZXNuYmZybWVibmZrYWt1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MTM5MzIsImV4cCI6MjAzOTM4OTkzMn0.bQKAg-P7r3Uq9pkkTXZDCp8N9MSMckNq26XFX4DGqr0"  # Replace with your Supabase API key
