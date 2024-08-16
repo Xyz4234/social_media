@@ -12,7 +12,7 @@
 
 import streamlit as st
 from PIL import Image
-from st_supabase_connection import SupabaseConnection
+from supabase import create_client
 
 # Supabase connection setup
 url = "https://hgaxxesnbfrmebnfkaku.supabase.co"  # Replace with your Supabase project URL
